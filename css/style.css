@@ -27,6 +27,7 @@
 }
 .section-two-img img{
     width: 100%;
+    padding-top: 40px;
 }
 .container{
     margin-top: 150px;
@@ -51,8 +52,8 @@ footer p{
     border: 1px solid #FFFFFF;
     text-decoration: none;
     color: #D9DBE1;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 1em;
+    padding-right: 0;
     border-radius: 10px;
     background-color: #0B0D17;
     opacity:  1;
@@ -92,5 +93,24 @@ footer p{
     color: #848199;
 }
 .card-group ul{
+    line-height: 2em;
+}
+#pill-size{
+    width: 15%;
+    background-color: #FF4E4E;   
+}
+#card-rounded{
+    background-color: #7cb0ff;
+    border-radius: 30px;
+}
+.card-body{
+    padding-top: 70px;
+    padding-left: 60px;
+}
+.section-two{
+    font-family: 'Poppins', sans-serif;
+}
+.accordion-color{
+    color: #848199;
     line-height: 2em;
 }
