@@ -34,7 +34,7 @@
                             <a class="nav-link" href="#">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#login">Contact</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Subscribe</a>
@@ -99,6 +99,8 @@
         </div>
     </header>
     <main>
+        <!-- Toast -->
+
         <!-- Section One -->
         <section class="container">
             <div class="mb-5">
@@ -137,7 +139,7 @@
                 </div>
             </div>
         </section>
-        <!-- Section Two -->
+        <!-- Section Two-->
         <section class="container">
             <div class="my-5">
                 <h1 class="text-center fw-bold">Frequently Asked Questions</h1>
@@ -149,20 +151,16 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                                 aria-controls="panelsStayOpen-collapseOne">
-                                Accordion Item #1
+                                What’s the difference between event design and event planning?
                             </button>
                         </h2>
                         <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
                             aria-labelledby="panelsStayOpen-headingOne">
                             <div class="accordion-body">
-                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
-                                the
-                                collapse plugin adds the appropriate classes that we use to style each element. These
-                                classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables.
-                                It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                Event design and event planning work hand in hand to deliver a
+                                successful event.Events by Knight offer tailor made events. This
+                                means we incorporate both event design and event planning to
+                                create that perfect event.
                             </div>
                         </div>
                     </div>
@@ -171,7 +169,7 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                                 aria-controls="panelsStayOpen-collapseTwo">
-                                Accordion Item #2
+                                How early do we need to start planning an event
                             </button>
                         </h2>
                         <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
@@ -194,7 +192,27 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                                 aria-controls="panelsStayOpen-collapseThree">
-                                Accordion Item #3
+                                What is your refund and cancellation policy?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                the
+                                collapse plugin adds the appropriate classes that we use to style each element. These
+                                classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables.
+                                It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                How do you keep budgets on track?
                             </button>
                         </h2>
                         <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
@@ -218,7 +236,23 @@
                 </div>
             </div>
         </section>
+        <!-- Section Three Bonus -->
+        <section class="container" id="login">
+            <h3 class="text-center mb-5">Sign In:</h3>
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="enter your e-mail address">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="enter your password">
+                </div>
+                <button type="submit" class="btn btn-success">Log In</button>
+              </form>
+        </section>
     </main>
+    <!-- Footer Section -->
     <footer>
         <section class="d-flex justify-content-between">
             <div class="d-flex align-items-center">
@@ -227,12 +261,14 @@
             <div>
                 <p>Get the App</p>
                 <div>
-                    <a class="d-block my-3 button-app-footer" href="https://apps.apple.com/us/app/pubg-mobile-aftermath/id1330123889" target="blank">
+                    <a class="d-block my-3 button-app-footer"
+                        href="https://apps.apple.com/us/app/pubg-mobile-aftermath/id1330123889" target="blank">
                         <i class="fab fa-apple"></i>
                         <span>Download on the</span><br><b>App Store
                         </b>
                     </a>
-                    <a class="d-block button-app-footer" href="https://play.google.com/store/apps/details?id=com.tencent.ig&hl=en&gl=US" target="blank">
+                    <a class="d-block button-app-footer"
+                        href="https://play.google.com/store/apps/details?id=com.tencent.ig&hl=en&gl=US" target="blank">
                         <i class="fab fa-google-play"></i>
                         <span>Get it on</span><br><b>Google Play
                         </b>
