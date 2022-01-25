@@ -32,3 +32,36 @@
     margin-top: 150px;
     margin-bottom: 150px;
 }
+footer section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #0B0D17;
+}
+footer small{
+    color: #D9DBE1;
+
+}
+footer p{
+    color: #D9DBE1;
+    font-size: larger;
+}
+.button-app-footer{
+    border: 1px solid #FFFFFF;
+    text-decoration: none;
+    color: #D9DBE1;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    background-color: #0B0D17;
+    opacity:  1;
+    transition: 0.4s;
+}
+.button-app-footer:hover {opacity: 3}
+.button-app-footer span{
+    font-size: xx-small;
+}
+.fab{
+    font-size: x-large;
+}
