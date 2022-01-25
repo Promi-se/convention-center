@@ -65,3 +65,32 @@ footer p{
 .fab{
     font-size: x-large;
 }
+.card-body ul{
+    list-style: none;
+    padding: 0px;
+}
+.card-button{
+    color: #3F87F5;
+    font-weight: bolder;
+    background-color: #fcf0f7;
+    border: none;
+    padding: 10px 44px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-bottom: 44px;
+}
+.fas{
+    color: #3F87F5;
+}
+.font-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.card-group p,ul{
+    color: #848199;
+}
+.card-group ul{
+    line-height: 2em;
+}
