@@ -1,0 +1,17 @@
+.carousel-item img{
+    width: 1440px;
+    height: 700px;
+}
+.button-customize{
+    color: #3F87F5;
+    font-weight: bolder;
+    background-color: #FFFFFF;
+    border: none;
+    padding: 10px 44px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 44px;
+}
